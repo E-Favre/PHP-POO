@@ -9,25 +9,25 @@ spl_autoload_register(function ($class) {
 //Créer un personnage et lui appliquer la méthode crier() et en faire un var_dump
 $mario = new Personnage("Mario");
 $luigi = new Personnage("Luigi");
-$pikachu = new Personnage("Pikachu");
-$merlin = new Magicien("Merlin");
+$princess = new Personnage("Princess Peach");
+$magic = new Magicien("Magic Koopa");
 
-$pikachu->crier();
+$princess->crier();
 $mario->crier();
 /* On applique la méthode regenerer a notre personnage et, par consequent, sa vie repasse à 100 */
 $luigi->regenerer(5);
-// $pikachu->vie = 0;
-var_dump($pikachu->mort());
+// $princess->vie = 0;
+var_dump($princess->mort());
 
-echo "<p>" . $pikachu->getNom() . "</p>";
+echo "<p>" . $princess->getNom() . "</p>";
 
 var_dump($mario);
 echo "<br>";
 var_dump($luigi);
 echo "<br>";
-var_dump($pikachu);
+var_dump($princess);
 
-$pikachu->attaque($mario);
+$princess->attaque($mario);
 /* Si je veux afficher quelque chose du côté de la vue j'utilise echo */
 
 
@@ -41,13 +41,12 @@ $pikachu->attaque($mario);
 
 echo "<br>";
 
-$pikachu->setNom("Princesse Peach");
-var_dump($pikachu->getNom());
+$princess->setNom("Princesse Daisy");
+var_dump($princess->getNom());
 
 echo "<br>";
-var_dump($merlin);
+var_dump($magic);
 
 echo "<br>";
-$merlin->attaque($luigi);
+$magic->attaque($luigi);
 var_dump($luigi);
-?>

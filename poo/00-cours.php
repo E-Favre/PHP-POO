@@ -2,8 +2,7 @@
 <html lang="fr">
 
 <head>
-    <title>Introduction - Cours programmation oreintée objet</title>
-
+    <title>Introduction - cours programmation orientée objet</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,56 +13,45 @@
 </head>
 
 <body>
-
-    <div class="p-5 bg-light">
-        <div class="container">
-            <H1 class="display-3">POO : La programmation orientée objet</H1>
-            <p class="lead mt-3">Introduction</p>
+    <div class="p-3 bg-light">
+        <div class="container text-center">
+            <h1 class="display-4">POO: la Programmation Orientée Objet</h1>
+            <p class="lead">Introduction</p>
         </div>
     </div>
 
     <div class="container">
         <div class="row">
-            <div class="col-12">
-
+            <div class="col-12 mt-2">
                 <h2 class="text-center">Historique</h2>
-
-                <p>La notion d'objet a été introquite dans les langages de programmation en 1962 par le langage <code>simula</code>. Cette façon de programmer a évoluée avant d'être popularisée en 1983 avec la sortie du langage C++, un langage orieenté objet dont l'utilisation ressemble à celle du langage C.</p>
-
-                <p>Cette nouvelle façon de programmer répond à plusieurs besoins</p>
-
+                <p>Le notion d'objet a été un produit dans les langages de programmation en 1962 par le langage 'simula'. Cette façcon de programmer a évoluée avant d'être popularisée en 1983 avec la sortie du langage C++, un langage orienté objet dont l'utilisation ressemble à celle du langage C.</p>
+                <p>Cette nouvelle façcon de programmer répond à plusieurs besoins:</p>
                 <ul>
-                    <li>Elle facilite les changements importants dans le programme</li>
-                    <li>En cas de changement dans les langages, elle facilite la mise à niveau.</li>
+                    <li>Elle facilite les changements importatns dans le programme.</li>
+                    <li>En cas de changements dans les langages, elle facilite la mise à nouveau.</li>
                 </ul>
-
-                <p>La POO va permettre de faire face aux changements majeurs qui auraient pu demander de reprendre un programme de A à Z, mais elle va demander également une nouvelle façon de programmer et de réfléchir à l'organisation du code. Trois stratégies sont alors à mettre en place : </p>
-
+                <p>La POO va permettre de faire façe aux changements majeurs qui auraient pus demander de reprendre un programme de A à Z. Mais elle va demander également une nouvelle façon de programmer et de réfléchir à l'organisation du code. 3 stratégies sont alors à mettre en place:</p>
                 <ul>
-                    <li>Modéliser différemment</li>
+                    <li>Modéliser différenements</li>
                     <li>Modulariser</li>
                     <li>Encapsuler</li>
                 </ul>
-
-            </div><!-- fin de la col-12 -->
+            </div><!-- fin de la classe "col-12: Historique" -->
 
             <div class="col-12">
-                <h2 class="text-center">Les avantages de la POO</h2>
-                <p>Le principal avantage de la POO est de faciliter la réutilisation d'un module. Ainsi, on pourra reprendreles méthodes (fonctions) d'une classe existante dans une nouvelle classe grâce à la notion de d'<b>héritage</b></p>
-                <p>Une autre chose facilitée par l'orienté objet est la lecture du code ; en effet on comprendra plus facilement une instruction <code>->ajout</code>, qu'un <code>if...else</code> avec de multiples conditions dans une boucle. La force de cette façon de programmer est qu'elle se calque sur la réalité physique. Une classe sera, par exemple, Renault ; les objets (ou instanciations) de cette classe seront $voiture1, $voiture2, $voiture3 etc. L'objet est donc la voiture et cet objet aura des caractéristiques representées par des variables appelées des <b>propriétés</b> et des comportements représentés par des fonctions appelés <b>méthodes</b>. En conclusion, les avantages de cette façon de programmer sont les suivants : </p>
-                
+                <h2 class="text-center">Les Avantages de la POO</h2>
+                <p>Le principal avantage de la POO est de faciliter la réutilisation d'un module. Ainsi, on pourra reprendre les méthodes (fonctions) d'une classe éxistante dans une nouvelle classe grâce à la notion d'héritage.</p>
+                <p>Une autre chose facilitée par l'orienté objet est la lecture du code. En effet, on comprendra plus facilement une instruction <code>->ajout</code>, qu'un 'if else' avec des multiples conditions dans une boucle. La force de cette façcon de programmer est qu'elle se calque sur la réalité physique. Une classe sera par exemple Renault. Les objets ou instanciations de cette classe seront $voiture1, $voiture2, etc. L'objet est donc la voiture. Cette objet aura des caractéristiques représentées par des variables, appelées propriétés et des comportements représentés par des fonctions, appelées méthodes. En conclusion, les avantages de cette façon de programmer sont les suivants:</p>
                 <ul>
-                    <li>Facilitation du travail collaboratif</li>
-                    <li>Simplification de la maintenance</li>
-                    <li>Assouplissement du code</li>
+                    <li>La facilitation du travail collaboratif</li>
+                    <li>La simplification de la maintenance</li>
+                    <li>L'assouplissement du code</li>
                 </ul>
+                <p>Cette approach est tout de même moins intutive que l'approche procédure. La POO oblige en effet à réfléchir et modéliser avant de programmer.</p>
+            </div><!-- fin de la classe "col-12: Avantages" -->
 
-                <p>Cette approche est tout de même moins intuitive que l'approche procédurale. La POO oblige à réfléchir et modéliser avant de programmer</p>
-            </div><!-- fin de la col-12 -->
-        </div>
-        
-    </div>
-
+        </div><!-- fin de la rangée -->
+    </div><!-- fin du "container" -->
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
