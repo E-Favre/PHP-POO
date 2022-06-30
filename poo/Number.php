@@ -12,7 +12,7 @@ class Number
             return $chiffre;
         }
     }
-
+    
     // public function sansZero($chiffre)
     // {
     //     if($chiffre < 10){
