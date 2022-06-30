@@ -21,3 +21,4 @@ class Magicien extends Personnage
     }
 
 }
+?>

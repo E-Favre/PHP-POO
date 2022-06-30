@@ -30,3 +30,4 @@ class BootstrapForm extends Form
         );
     }
 }
+?>
