@@ -17,7 +17,7 @@
     <div class="p-3 bg-light">
         <div class="container text-center">
             <h1 class="display-4">POO: la Programmation Orientée Objet</h1>
-            <p class="lead">L'héritage</p>
+            <p class="lead display-6">L'héritage</p>
         </div>
     </div>
 
@@ -34,11 +34,14 @@
                     Alors que dans la classe parente de Personnage.php, les attaques sont à 20, dans la nouvelle classe que nous avons créée, nous allons pouvoir définir les attaques à 40 sans pour autant devoir réécrire (ou copier/coller) le reste du code.</p>
 
                 <h2 class="text-secondary text-center">Utilisation</h2>
-                <p></p>
+                <p>Pour qu'une classe hérite d'une autre, il suffira d'écrire après l'habituelle <code>class NomClass</code> d'écrire le mot <b>extends</b> suivi de la classe dont on veut hériter. Cette façon de faire permet d'instancier un personnage qui aura peut-être des nouvelles propriétés ou méthodes grâce à notre nouvelle classe.</p>
 
+                <p>Lorsque l'on fera un <em>require</em> de notre nouvelle classe, il faudra bien respecter l'ordre dans lequel on appelle nos classes : d'abord la classe initiale puis celle qui est étendue, notre classe secondaire.</p>
 
-            </div><!-- fin de la classe "col-12: Introduction" -->
+            </div><!-- fin de la col-12: Introduction" -->
+
         </div><!-- fin de la rangée -->
+
     </div><!-- fin du "container" -->
 
     <!-- Bootstrap JavaScript Libraries -->
