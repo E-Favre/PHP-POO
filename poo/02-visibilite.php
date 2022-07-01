@@ -38,9 +38,9 @@
 
             <div class="col-12">
                 <h2 class="text-center">Mais pourquoi choisir autre chose que "Public"?</h2>
-                <p>Les notions de public, private et protected ne sont pas nécessaires à 100% lorsque l'on travaille seuil. Ce pendant, si notre code a vocation d'être vu par d'autre développeurs, ou si l'on a besion d'être debugger, il faudra bienn définir les propriétés pour que les personnes qui passent derrière comprenent ce qui peut être modifié ou pas.</p>
+                <p>Les notions de public, private et protected ne sont pas nécessaires à 100% lorsque l'on travaille seul. Ce pendant, si notre code a vocation d'être vu par d'autre développeurs, ou si l'on a besion d'être debugger, il faudra bienn définir les propriétés pour que les personnes qui passent derrière comprenent ce qui peut être modifié ou pas.</p>
                 <p>Généralement dans les codes destinés à la relecture par d'autres, on trouvera toutes les propriétés en private et des getters et setters pour y accéder. De la même façon qu'un getters récupère une information (ex: comme le nom, la vie ou encore des points d'attaque), un setter permet de donner ou modifier une valeur. Les getters et setters serviront de garde fou pour éviter les modifications intempestives du code.</p>
-            </div><!-- fin de la classe "col-12: ??" -->
+            </div><!-- fin de la classe -->
 
 
         </div><!-- fin de la rangée -->
