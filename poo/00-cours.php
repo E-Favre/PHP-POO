@@ -39,15 +39,16 @@
             </div><!-- fin de la classe "col-12: Historique" -->
 
             <div class="col-12">
-                <h2 class="text-center">Les Avantages de la POO</h2>
-                <p>Le principal avantage de la POO est de faciliter la réutilisation d'un module. Ainsi, on pourra reprendre les méthodes (fonctions) d'une classe éxistante dans une nouvelle classe grâce à la notion d'héritage.</p>
+                <h2 class="text-center">Les avantages de la POO</h2>
+                <p>Le principal avantage de la POO est de faciliter la réutilisation d'un module. Ainsi, on pourra reprendre les méthodes (fonctions) d'une classe existante dans une nouvelle classe grâce à la notion d'héritage.</p>
                 <p>Une autre chose facilitée par l'orienté objet est la lecture du code. En effet, on comprendra plus facilement une instruction <code>->ajout</code>, qu'un 'if else' avec des multiples conditions dans une boucle. La force de cette façcon de programmer est qu'elle se calque sur la réalité physique. Une classe sera par exemple Renault. Les objets ou instanciations de cette classe seront $voiture1, $voiture2, etc. L'objet est donc la voiture. Cette objet aura des caractéristiques représentées par des variables, appelées propriétés et des comportements représentés par des fonctions, appelées méthodes. En conclusion, les avantages de cette façon de programmer sont les suivants:</p>
                 <ul>
                     <li>La facilitation du travail collaboratif</li>
                     <li>La simplification de la maintenance</li>
                     <li>L'assouplissement du code</li>
                 </ul>
-                <p>Cette approach est tout de même moins intutive que l'approche procédure. La POO oblige en effet à réfléchir et modéliser avant de programmer.</p>
+                <p>Cette approach est tout de même moins intutive que l'approche procédure. La POO oblige en effet à réfléchir et modéliser avant de programmer.
+                </p>
             </div><!-- fin de la classe "col-12: Avantages" -->
 
         </div><!-- fin de la rangée -->
